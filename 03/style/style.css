@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 140, 140);
+}
+
+.page {
+    padding: 62px 20px 91px 24px;
+    width: 360px;
+    margin: 80px auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+button {
+    background-color: white ;
+    border: 0;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+input {
+    border: 0;
+    border-radius: 12px;
+    background-color: rgb(227, 227, 227);
+    padding: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    width: 314px;
+}
+
+.menu-foods {
+    margin-top: 29px;
+    margin-bottom: 32px;
+    font-size: 0;
+}
+
+.menu-food {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.menu-food:last-child{
+    margin-right: 0;
+}
+
+.menu-food h3 {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(238, 238, 238);
+    margin: 8px 0 0 0;
+}
+
+.food img {
+    padding: 18px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(238, 238, 238);
+}
+
+.menu-food:hover h3 {
+    color: black;
+}
+
+.menu-food:hover .food img {
+    background-color: blanchedalmond;
+}
+
+h2 {
+    color: rgb(0, 48, 73);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+
+.select-product {
+    padding: 10px 16px 12px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(231, 231, 231);
+    background: rgb(255, 255, 255);
+    font-size: 0;
+}
+
+.img-block,
+.text-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-block{
+    padding-left: 12px;
+}
+
+.text-block h4 {
+    color: rgb(0, 48, 73);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.text-block h5{
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0;
+}
+
