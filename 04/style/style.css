@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    box-sizing: border-box;
 }
 
 /* body */
@@ -7,8 +7,7 @@ body{
     background-image: url(../img/Rectangle.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 570px;
-    width: 800px;
+    margin: 0;
 }
 
 body{
@@ -19,96 +18,102 @@ body{
 /* main */
 
 main{
-    padding: 15px 80px;
+    margin: 0 80px;
 }
+
 
 /* navigation */
 
 header{
     display: flex;
     justify-content: space-between;
-    height: 60px;
-    width: 1150px;
     text-align: center;
-    padding-top: 0;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
+.left-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
 .netflix{
-    width: 150px;
-    height: 40px;
+    width: 156px;
+    height: 50px;
     padding-right: 15px;
 }
 
 .logo-date {
     border-left: 2px solid white;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .account{
-    padding-left: 15px;
-    width: 30px;
-    height: 30px;
+    padding-left: 25px;
+    width: 105px;
+    height: 75px;
 }
 
 /* genre */
 
 .genre{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .drama{
-    padding-right: 8px;
+    padding-right: 17px;
 }
 
 .thriller{
     border-left: 2px solid white;
     border-right: 2px solid white;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .super{
-    padding-left: 8px;
+    padding-left: 17px;
 }
 
 /* name film */
 
 .name{
-    height: 60px;
-    width: 400px;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h1{
-    font-size: 47px;
+    font-size: 55px;
     font-family: sans-serif;
 }
 
 /* year and grade */
 
 .info-blocks{
-    font-size: 18px;
-}
-
-.info-blocks {
+    font-size: 30px;
     word-spacing: 5px;
 }
 
 .block-year {
-    padding-right: 4px;
+    padding-right: 10px;
     border-right: 2px solid white;
 }
 
 .block-direction {
-    padding-left: 11px;
+    padding-left: 17px;
 }
 
 .block-season {
-    padding-left: 7px;
+    padding-left: 10px;
     border-left: 2px solid white;
 }
 
@@ -119,15 +124,15 @@ h1{
 /* info-films */
 
 .info-film{
-    height: 50px;
-    width: 550px;
+    height: 100px;
+    width: 800px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .info-film{
     color: grey;
-    font-size: 15px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -135,8 +140,8 @@ h1{
 
 .buttons{
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* but */
@@ -144,19 +149,21 @@ h1{
 #first-but {
     color: white;
     word-spacing: 10px;
+    font-size: 22px;
 }
 
 #second-but {
     color: white;
+    font-size: 22px;
 }
 
 .stream{
-    margin-right: 35px;
+    margin-right: 40px;
     background-color: red;
     border: 1px solid red;
-    border-radius: 5px;
-    width: 180px;
-    height: 40px;
+    border-radius: 10px;
+    width: 270px;
+    height: 55px;
 }
 
 .stream:hover{
@@ -164,11 +171,11 @@ h1{
 }
 
 .episode{
-    width: 180px;
-    height: 40px;
+    width: 270px;
+    height: 55px;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .episode:hover{
@@ -178,36 +185,53 @@ h1{
 /* popular */
 
 .top{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: px;
+    width: 900px;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.icon-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+
+.icon-btn:hover{
+    border-color: grey;
+    color: grey;
 }
 
 /* popular films */
 
 .film{
-    margin-top: 20px;
-    width: 600px;
+    margin-top: 30px;
+    width: 900px;
     display: flex;
     justify-content: space-between;
 }
 
 .photo{
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 210px;
 }
 
 /* +16 */
 
 .main-block{
-    width: 1300px;
-    height: 60px;
+    position: fixed;
+    right: 0%;
+    bottom: 100px;
 }
 
 .color-block{
@@ -217,7 +241,7 @@ h1{
 
 .color-block{
     width: 200px;
-    height: 50px;
+    height: 60px;
     background-color: rgb(116, 0, 0);
     text-align: center;
     padding-top: 25px;
@@ -225,9 +249,15 @@ h1{
 }
 
 .grey-block{
-    height: 70px;
-    width: 140px;
-    margin-top: -23px;
+    height: 60px;
+    width: 160px;
+    margin-top: -26px;
+    font-size: 22px;
     background-color: grey;
     float: right;
+}
+
+.grey-block{
+    display: flex;
+    align-items: center;
 }
