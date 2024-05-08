@@ -1,0 +1,288 @@
+*{
+    background-color: rgb(31, 32, 36);
+    box-sizing: border-box;
+}
+body{
+    margin: 20px 50px 0 50px;
+    color: white;
+}
+/* block header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 66px;
+    width: 90px;
+}
+
+.navi{
+    display: flex;
+}
+
+.p-navi{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.p-navi:hover{
+    color: #ff9900;
+    cursor: pointer;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+.hire{
+    width: 121px;
+    height: 54px;
+    background-color:#ffae00;
+    border: 2px solid #ffae00;
+    border-radius: 50px;
+
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.hire:hover{
+    border: 3px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+/* block account */
+.account{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+h3{
+    font-size: 32px;
+}
+.kartik{
+    color: #fafafa;
+}
+
+.kartik:hover{
+    text-decoration: underline;
+    color: #ff9900;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 48px;
+}
+.word-account{
+    font-size: 24px;
+}
+/* block-project */
+
+.projects {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.select-info{
+    height: 120px;
+    width: 416px;
+    border: 1px solid wheat;
+    border-radius: 15px;
+}
+
+.select-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select-info:hover{
+    border: 3px solid white;
+    border-color: #ffae00;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 32px;
+    text-align: center;
+}
+.slt-info{
+    font-size: 16px;
+}
+
+/* man about me */
+
+.container{
+    margin-top: 90px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me{
+    width: 600px;
+    padding: 25px;
+}
+.who{
+    width: 148px;
+    height: 42px;
+    color: orange;
+    background-color: #464646;
+    border-radius: 15px;
+    border: 0;
+    font-size: 20px;
+}
+
+.info-man{
+    font-size: 16px;
+    color: #929292;
+}
+
+.btn-hire{
+    width: 147px;
+    height: 54px;
+    margin-top: 40px;
+    border: 0;
+    border-radius: 25px;
+    color: black;
+    background-color: #ffae00;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.btn-hire:hover{
+    border: 3px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* skills */
+
+.my-skills{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.column-skl{
+    width: 550px;
+}
+
+.btn-skl{
+    width: 148px;
+    height: 42px;
+    border: 0;
+    border-radius: 25px;
+    color: #ffae00;
+    background-color: #464646;
+    font-size: 20px;
+}
+.ppp{
+    font-size: 16px;
+}
+
+/* works */
+
+.block-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+}
+
+.btn-works{
+    width: 160px;
+    height: 42px;
+    color: #ffae00;
+    background-color: #464646;
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.works{
+    display: flex;
+}
+
+.p-work{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.p-work:hover{
+    color: #ff9900;
+    cursor: pointer;
+}
+
+/* .column{
+    display: grid;
+} */
+
+/*  */
+
+.testi{
+    text-align: center;
+}
+
+.say{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 39px;
+}
+
+.comments{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.testimonials{
+    width: 192px;
+    height: 42px;
+    font-size: 20px;
+    color: #ffae00;
+    border: 0;
+    border-radius: 10px;
+    background-color: #464646;
+    text-align: center;
+}
+
+/*  */
+
+.select-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first-name{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #ffae00;
+}
+
+.second-name{
+    font-size: 16px;
+}
+
+.word-info{
+    font-size: 21px;
+}
+
+.p-block{
+    color: #929292;
+    font-size: 18px;
+}
+
+.p-block:hover{
+    color: #ffae00;
+}

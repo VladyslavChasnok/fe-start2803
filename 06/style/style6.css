@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.block-page{
+    padding: 150px;
+}
+/* man */
+.man{
+    padding-bottom: 80px;
+}
+.pic-man{
+    margin-right: 50px;
+}
+
+.man{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 16px;
+}
+.about{
+    background-color: rgb(245, 245, 245);
+    width: 590px;
+    padding: 10px 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.p-man{
+    color: grey;
+}
+.educ-man{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.first-block{
+    display: flex;
+}
+.goals{
+    width: 270px;
+    padding: 5px 10px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.frust-block{
+    margin-left: 50px;
+}
+.frust{
+    width: 270px;
+    padding: 5px 10px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    font-size: 12px;
+}
+/* woman */
+.pic-woman{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.woman{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.p-woman{
+    color: grey;
+}
+.educ-woman{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.second-block{
+    display: flex;
+}
+.about:hover{
+    border: 1px solid rgb(45, 106, 212);
+}
+.goals:hover{
+    border: 1px solid rgb(48, 119, 243);
+}
+.frust:hover{
+    border: 1px solid rgb(48, 115, 232);
+}

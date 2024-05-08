@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 19, 34);
+    font-size: 16px;
+}
+
+section{
+    width: 700px;
+}
+
+/* первая */
+
+.one{
+    width: 104px;
+    height: 56px;
+    padding: auto;
+    border: 1px solid #006aff;
+    background-color: transparent;
+    color: #006aff;
+}
+
+/* вторая */
+
+.two{
+    width: 130px;
+    height: 56px;
+    padding: 5px;
+    border: 1px solid rgb(0, 106, 255);
+    background-color: black;
+    color: #006aff;
+}
+
+/* третья */
+
+.three{
+    width: 115px;
+    height: 56px;
+    padding: 5px;
+}
+
+/* четвертая */
+
+.four{
+    width: 142px;
+    height: 56px;
+    color: white;
+}
+
+/* пятая */
+
+.five{
+    width: 103px;
+    height: 56px;
+    border: 1px solid #006aff;
+    color: #006aff;
+    background-color: transparent;
+}
+
+/* шестая */
+
+.six{
+    width: 108px;
+    height: 56px;
+    border: 1px solid #006aff;
+    background-color: black;
+    color: #006aff
+}
+
+/* седьмая */
+
+.seven{
+    width: 115px;
+    height: 56px;
+    color: white
+}
+
+/* восьмая */
+
+.eight{
+    height: 64px;
+    width: 146px;
+    border: 1px solid #006aff;
+    color: #006aff;
+    background-color: black;
+}
+
+/* девятая */
+
+.nine{
+    width: 111px;
+    height: 56px;
+    border: 1px solid #006aff;
+    color: #006aff;
+    background-color: transparent;
+}
+
+/* десятая */
+
+.ten{
+    width: 110px;
+    height: 56px;
+    color: #006aff;
+    background-color: transparent;
+    border: 1px solid #006aff;
+}
+
+/* одинадцатая */
+
+.eleven{
+    width: 115px;
+    height: 56px;
+    border: 1px solid #006aff;
+    color: black;
+    background-color: #006aff;
+}
