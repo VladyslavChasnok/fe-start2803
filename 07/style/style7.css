@@ -1,116 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
-    padding: 0;
-    background-color: rgb(17, 19, 34);
+    width: 100%;
+    background-color: black;
+}
+
+.section{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.btn{
+    padding: 15px 30px;
     font-size: 16px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
-section{
-    width: 700px;
-}
-
-/* первая */
-
-.one{
-    width: 104px;
-    height: 56px;
-    padding: auto;
-    border: 1px solid #006aff;
+.fill-in{
     background-color: transparent;
-    color: #006aff;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
 }
 
-/* вторая */
-
-.two{
-    width: 130px;
-    height: 56px;
-    padding: 5px;
-    border: 1px solid rgb(0, 106, 255);
-    background-color: black;
-    color: #006aff;
+.glowing{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
 }
 
-/* третья */
-
-.three{
-    width: 115px;
-    height: 56px;
-    padding: 5px;
+.fill-up{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
 }
 
-/* четвертая */
+.slide{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+}
 
-.four{
-    width: 142px;
-    height: 56px;
+.raise{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+}
+
+.close{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+}
+
+.notify-me{
+    background-color: #0f89fa;
+    border: 2px solid #0f89fa;
+    color: #000000;
+}
+
+.hover-me{
+    margin: 20px auto;
+	border: none;
+	padding: 10px 44px;
+	font-size: 36px;
+	position: relative;
+}
+
+    &::before{
+		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		width: 50%;
+		height: 100%;
+		background: black;
+		position: absolute;
+		top: 0;
+		left: 0;
+    }
+
+.zoom{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+    font-size: 12px;
+}
+
+.offset{
+        background-color: transparent;
+    border-left: 2px solid #0f89fa;
+    border-right: 2px solid #0f89fa;
+    color: #0f89fa;
+}
+
+.explore-more{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+}
+
+.fancy{
+    background-color: transparent;
+    border: 2px solid #0f89fa;
+    color: #0f89fa;
+}
+
+.fill-in:hover{
     color: white;
+    background-color: #0f89fa;
 }
 
-/* пятая */
-
-.five{
-    width: 103px;
-    height: 56px;
-    border: 1px solid #006aff;
-    color: #006aff;
-    background-color: transparent;
+.glowing:hover{
+    box-shadow: 0px 0px 75px 0px rgba(0, 117, 255, 1);
 }
 
-/* шестая */
-
-.six{
-    width: 108px;
-    height: 56px;
-    border: 1px solid #006aff;
-    background-color: black;
-    color: #006aff
+.fill-up:hover{
+    color: white;
+    background-color: #0f89fa;
 }
 
-/* седьмая */
-
-.seven{
-    width: 115px;
-    height: 56px;
-    color: white
+.slide:hover{
+    color: white;
+    background-color: #0f89fa;
 }
 
-/* восьмая */
-
-.eight{
-    height: 64px;
-    width: 146px;
-    border: 1px solid #006aff;
-    color: #006aff;
-    background-color: black;
+.raise:hover{
+    transform: translate(0,-15px);
+    box-shadow: -3px 7px 10px -5px rgba(0, 96, 255, 1);
 }
 
-/* девятая */
-
-.nine{
-    width: 111px;
-    height: 56px;
-    border: 1px solid #006aff;
-    color: #006aff;
-    background-color: transparent;
+.close:hover{
+    color: white;
+    background-color: #0f89fa;
 }
 
-/* десятая */
+.notify-me:hover{}
 
-.ten{
-    width: 110px;
-    height: 56px;
-    color: #006aff;
-    background-color: transparent;
-    border: 1px solid #006aff;
-}
+.hover-me:hover{}
 
-/* одинадцатая */
-
-.eleven{
-    width: 115px;
-    height: 56px;
-    border: 1px solid #006aff;
-    color: black;
-    background-color: #006aff;
+.zoom:hover{
+    transform: scale(1.2);
+    font-size: 14px;
 }
