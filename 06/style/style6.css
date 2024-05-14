@@ -1,13 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 100%;
 }
 
-body{
-    position: fixed;
-}
 .block-page{
     padding: 150px;
 }
