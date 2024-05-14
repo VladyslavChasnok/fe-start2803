@@ -87,6 +87,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+
 .select-info{
     height: 120px;
     width: 416px;
@@ -98,13 +99,9 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #464646;
 }
 
-.select-info:hover{
-    color: black;
-    cursor: pointer;
-    background-color: #ff9900;
-}
 
 .p-span{
     font-size: 32px;

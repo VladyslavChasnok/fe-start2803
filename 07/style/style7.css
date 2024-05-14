@@ -8,12 +8,13 @@ body{
     background-color: black;
 }
 
-.section{
-    display: grid;
-    gap: 50px;
-    justify-content: center;
+.btn-block{
+    display: flex;
     align-items: center;
-    margin: 150px auto;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin: 100px;
 }
 
 .btn{
@@ -30,11 +31,18 @@ body{
     border: 2px solid #0f89fa;
     color: #0f89fa;
 }
+.fill-in:hover{
+    color: white;
+    background: #0f89fa;
+}
 
 .glowing{
     background-color: transparent;
     border: 2px solid #0f89fa;
     color: #0f89fa;
+}
+.glowing:hover{
+    box-shadow: 0px 0px 75px 0px rgba(0, 117, 255, 1);
 }
 
 .fill-up{
@@ -42,11 +50,22 @@ body{
     border: 2px solid #0f89fa;
     color: #0f89fa;
 }
+.fill-up:hover{
+    color: white;
+    background-color: #0f89fa;
+    transition-duration: 0.5s;
+    transform: rotate(15deg);
+}
+
 
 .slide{
     background-color: transparent;
     border: 2px solid #0f89fa;
     color: #0f89fa;
+}
+.slide:hover{
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(2, 126, 242) 0%, rgb(60, 190, 255) 100%, rgba(0,212,255,1) 100%);
 }
 
 .raise{
@@ -54,11 +73,25 @@ body{
     border: 2px solid #0f89fa;
     color: #0f89fa;
 }
+.raise:hover{
+    transform: translate(0,-15px);
+    box-shadow: -3px 7px 30px 0px rgba(0, 96, 255, 1);
+}
 
 .close{
     background-color: transparent;
-    border: 2px solid #0f89fa;
+    border-top: 2px solid #0f89fa;
+    border-bottom: 2px solid #0f89fa;
     color: #0f89fa;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+.close:hover{
+    color: white;
+    background-color: #0f89fa;
+    font-size: 16px;
+    border-radius: 0;
 }
 
 .notify-me{
@@ -68,29 +101,17 @@ body{
 }
 
 .hover-me{
-    margin: 20px auto;
-	border: none;
-	padding: 10px 44px;
-	font-size: 36px;
-	position: relative;
 }
-
-    &::before{
-		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		content: '';
-		width: 50%;
-		height: 100%;
-		background: black;
-		position: absolute;
-		top: 0;
-		left: 0;
-    }
 
 .zoom{
     background-color: transparent;
     border: 2px solid #0f89fa;
     color: #0f89fa;
     font-size: 12px;
+}
+.zoom:hover{
+    transform: scale(1.2);
+    font-size: 14px;
 }
 
 .offset{
@@ -112,40 +133,11 @@ body{
     color: #0f89fa;
 }
 
-.fill-in:hover{
-    color: white;
-    background-color: #0f89fa;
-}
 
-.glowing:hover{
-    box-shadow: 0px 0px 75px 0px rgba(0, 117, 255, 1);
-}
 
-.fill-up:hover{
-    color: white;
-    background-color: #0f89fa;
-}
 
-.slide:hover{
-    color: white;
-    background-color: #0f89fa;
-}
-
-.raise:hover{
-    transform: translate(0,-15px);
-    box-shadow: -3px 7px 10px -5px rgba(0, 96, 255, 1);
-}
-
-.close:hover{
-    color: white;
-    background-color: #0f89fa;
-}
 
 .notify-me:hover{}
 
 .hover-me:hover{}
 
-.zoom:hover{
-    transform: scale(1.2);
-    font-size: 14px;
-}
